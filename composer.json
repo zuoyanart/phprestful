@@ -1,0 +1,14 @@
+{
+    "require": {
+        "slim/slim-skeleton": "^3.0",
+        "catfan/Medoo": "^1.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"controller\\": "controller/",
+    		"logic\\": "logic/",
+    		"model\\": "model/"
+    	}
+    }
+    
+}
